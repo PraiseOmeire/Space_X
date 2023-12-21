@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, monospace, Arial, Helvetica, sans-serif;
+  font-family: "Barlow", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --main-background-color: #0b0d17;
+  --main-text-color: #ffffff;
+  --second-text-color: #d0d6f9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Bellefair";
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Large screen */
+
+@media (min-width: 1200px) {
+  .body {
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #fff;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}

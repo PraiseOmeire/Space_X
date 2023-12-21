@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+}
+.iconBorder {
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+}
+
+.navLinkDiv {
+  margin-top: 0.7rem;
+  background-color: rgba(39, 38, 38, 0.5);
+  backdrop-filter: blur(10px);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.navLink {
+  color: rgb(244, 241, 241);
+  font-size: 1.1rem;
+  text-decoration: none;
+  justify-content: center;
+  margin-right: 0.7rem;
+  margin-top: 1.4rem;
+  margin-left: 0.5rem;
+
+  @media (min-width: 1200px) {
+    width: 1170px;
+
+    margin-left: 4rem;
+  }
+}
+
+.navLink:first-child {
+  margin-left: 2rem;
+}

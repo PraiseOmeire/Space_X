@@ -1,0 +1,58 @@
+.destinationImg {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  width: 100%;
+  height: 100vh;
+  width: "100%";
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 1200px) {
+    height: 80vh;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
+.gridItem {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  margin-left: 5rem;
+  margin-top: 6rem;
+}
+
+.firstP {
+  font-family: Barlow Condensed, sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 0.2px;
+  font-weight: 200;
+  margin-left: -6rem;
+}
+
+.one {
+  font-family: Barlow Condensed, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.2;
+  font-weight: 300;
+  color: #999;
+}
+.desHeading {
+  display: flex;
+  margin-top: 6.6rem;
+  margin-left: 2rem;
+  /* flex-direction: column; */
+}
+
+.desTitle {
+  font-family: Barlow Condensed, sans-serif;
+  margin-left: 1rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
