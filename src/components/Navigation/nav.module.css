@@ -16,20 +16,24 @@
 }
 
 .navLinkDiv {
-  margin-top: 0.7rem;
-  background-color: rgba(39, 38, 38, 0.5);
+  margin-top: 1.5rem;
+  /* background-color: rgba(39, 38, 38, 0.5); */
+  background-color: #242b34;
   backdrop-filter: blur(10px);
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
 .navLink {
+  font-family: Barlow Condensed, sans-serif;
   color: rgb(244, 241, 241);
   font-size: 1.1rem;
+  letter-spacing: 1.5px;
   text-decoration: none;
   justify-content: center;
   margin-right: 0.7rem;
   margin-top: 1.4rem;
   margin-left: 0.5rem;
+  cursor: pointer;
 
   @media (min-width: 1200px) {
     width: 1170px;
@@ -40,4 +44,8 @@
 
 .navLink:first-child {
   margin-left: 2rem;
+}
+
+.navLink:last-child {
+  margin-right: 4rem;
 }
